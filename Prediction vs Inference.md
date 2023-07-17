@@ -11,7 +11,7 @@ date: 03--May--2023
     - A trained linear model illustrates the relationship between Y and X well
     - Flexible models like [[Boosting method]] can lead to complicated f which makes it difficult to understand [[Predictor]] to [[Response]]
 ## Use of flexible models
-- When prediction is of interest and [[Inference]]
+- When prediction and not [[Inference]] is the end goal
 
 ---
 Links: 

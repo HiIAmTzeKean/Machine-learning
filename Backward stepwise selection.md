@@ -5,7 +5,7 @@ date: 03--Jun--2023
 
 # Backward stepwise selection
 
-Begins with the full [[Least squares]] models containing all p predictor and iteratively removes the least useful [[Predictor]] at each step.
+Begins with the full [[Least squares]] models containing all p predictor and iteratively removes the least useful [[Predictor]] at each step. [[Feature selection]] via removal of the least useful predictor.
 ## Algorithm
 1. Let $M_p$ denote the full model with p predictor
 2. For $k=p,p-1,…,1$

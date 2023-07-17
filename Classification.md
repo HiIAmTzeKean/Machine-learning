@@ -13,7 +13,7 @@ Computation of the [[Test error rate]] based on the average incorrect classifica
 $$Ave(I(y_0 \not= \hat{y}_0)$$
 ## Types of classifiers
 - [[Bayes classifier]]
-- [[K nearest neighbours]]
+- [[K nearest neighbours classifier]]
 - [[Logistic regression]]
 - [[Linear discriminant analysis]]
 ---

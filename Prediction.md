@@ -1,5 +1,6 @@
 ---
 tags: 🌱
+alias: Predicting
 date: 02--May--2023
 ---
 
@@ -11,16 +12,15 @@ where epsilon is a random [[Error term]] independent of X and has mean zero
 When some inputs X are available, we want to predict the value Y
 $$\hat{Y}=\hat{f}(X)$$
 where $\hat{Y} \approx Y$
-## Accuracy
+### Accuracy
 $$E(Y-\hat{Y})^2=[f(X)-\hat{f}(X)]^2 + Var(\epsilon)$$
-
-## Reducible error
+### Reducible error
 Using $\hat{f}$ to predict $f$ is not always perfect, by the error can be reduced with by using statistical learning.
 #### Cases
 - Model does not capture true relationship
 - Insufficient features
 - [[Overfitting]]
-## Irreducible error
+### Irreducible error
 Suppose the perfect estimator is learnt $\hat{Y}=f(X)$, the prediction would still have error since $Y=f(x) + \epsilon$ → Y function of [[Error term]] which cannot be predicted by X.
 
 ---

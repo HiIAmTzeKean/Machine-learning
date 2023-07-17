@@ -11,6 +11,7 @@ $$CV_k = \frac{1}{k}\sum_{i-1}^k MSE_i$$
 ## Advantage
 - If $k<n$ then the computational cost is lower than [[Leave one out cross validation|LOOCV]]
     - There is some [[Variability]] but the overall variability is still lover than [[Validation set approach]]
+- [[Bias and variance trade-off]]
 
 ---
 Links: [[Cross validation]] [[Mean squared error]]

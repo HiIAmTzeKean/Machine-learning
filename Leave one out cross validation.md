@@ -24,6 +24,9 @@ Closely linked to [[Validation set approach]] but instead of splitting the obser
     - $\hat{y}_i$ is the fitted value from the [[Least squares]] fit and $h_i$ is the [[Leverage statistic]]
     -  Leverage lies between 1/n and 1 and reflects the amount that an observation influence the fit
     - Residuals for high leverage points are inflated by the right amount for the equity to hold
+- High procedure [[Variance]] as the training sets at each step is almost identical
+    - $\frac{1}{n} \sum_{i=1}^n MSE_i$ is the averaging of the model output of each training set
+    - Output are highly [[Correlation|Correlated]] with each other caused by the huge overlap between training sets
 
 ---
 Links: [[Mean squared error]] [[Cross validation]]

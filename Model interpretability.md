@@ -9,5 +9,7 @@ Removal of these variables can be done through setting the coefficients of these
 ## Relation to [[Linear regression]]
 [[Least squares]] unlikely to yield any [[Coefficient]] that are exactly zero. Making it difficult to decide if the variable is irrelevant.
 
+![[Bias and variance trade-off#Model interpretation]]
+
 ---
-Links: 
+Links: [[Flexible model]]

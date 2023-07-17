@@ -6,6 +6,7 @@ date: 01--Jun--2023
 # Forward stepwise selection
 
 Reduces the possible [[Search space]] from $2^n$ in [[Best subset selection]] to a smaller space. The idea is to start with the null model then iteratively add the [[Predictor]] with the greatest additional improvement to the model till all predictors are in the model.
+[[Feature selection]] via selecting the most useful predictor.
 ## Algorithm
 - $M_0$ denote the null model which contains no predictor
 - For k=0,…,p-1
@@ -26,7 +27,7 @@ Reduces the possible [[Search space]] from $2^n$ in [[Best subset selection]] to
 - Computationally more feasible than [[Best subset selection]]
 - Can be applied to high-dimensional setting with $n<p$
     - Note that only models $M_0,...,M_{n-1}$ have unique solutions
-    - Each model is fitted using [[Least squares]] which will not give a unique solution when $p \ge n$. Refer to [[Prediction accuracy]] case 3.
+    - Each model is fitted using [[Least squares]] which will not give a unique solution when $p \ge n$. Refer to [[Prediction accuracy]] case 3
 
 ---
 Links: 

@@ -20,7 +20,7 @@ the [[Odds]] can be obtained. Small value of odds represent low probability, whi
 #### Estimating [[Coefficient]]
 [[Maximum likelihood]] method preferred for statistical properties. The intuition is that the coefficients when substituted should be close to the actual P(X) values.
 $$likelihood = \mathscr{l}(\beta_0,\beta_1) = \prod_{i:y_i=1} P(x_i) \prod_{i':y_{i'}=0}(1-P(x_{i'}))$$
-Where the likelihood of the parameters is to maximise the expression ([[Likelihood function]]).
+Where the likelihood of the [[Coefficient]] is to maximise the expression ([[Likelihood function]]).
 ### Multiple logistics regression
 Extension of the formula is similar to [[Linear regression]].
 $$\log(\frac{P(X)}{1-P(X)}) = \beta_0 + \beta_1X_1 +...+\beta_pX_p$$
