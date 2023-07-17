@@ -15,7 +15,7 @@ Begins with the full [[Least squares]] models containing all p predictor and ite
 ## Challenge
 - Like [[Forward stepwise selection]], there is no guarantee of yielding the best model since the optimal solution might not be a subset of the previous steps
 - Require number of samples n larger than number of variables p
-    - Else model cannot be fit. Refer to [[Prediction accuracy]], where there is no [[unique]] solution
+    - Else model cannot be fit. Refer to [[Prediction accuracy]], where there is no [[Unique]] solution
     - If a model cannot be fitted then it is impossible to know which predictor to remove when $p \ge n$
 
 ---

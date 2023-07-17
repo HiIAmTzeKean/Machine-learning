@@ -5,7 +5,7 @@ date: 25--May--2023
 
 # Best subset selection
 
-Fit a separate [[least squares]] [[regression]] for each possible combination of p predictors. [[Feature selection]] is directly performed on each possible combination, where the best feature is selected to be in the optimal model.
+Fit a separate [[Least squares]] [[Regression]] for each possible combination of p predictors. [[Feature selection]] is directly performed on each possible combination, where the best feature is selected to be in the optimal model.
 ## Complexity
 $O(2^p)$ time complexity
 ## Algorithm
