@@ -18,6 +18,7 @@ The optimal model would then be the model with regions such that RSS is minimise
 Consider a value J such that it is large, then there are many possible combinations in the set to choose from. Instead, a [[Constraint]] can be placed on J to limit the possible [[Search space]].
 ### Alternative approach
 A [[Top down approach]] with [[Greedy algorithm]] taken. This is also known as [[Recursive binary splitting]]. The algorithm begins at the top and splits the tree to the bottom. At each split, a greedy decision is made, the best action taken instead of look ahead.
+This is also usefull since it prevents overfitting.
 
 ---
 Links: 
