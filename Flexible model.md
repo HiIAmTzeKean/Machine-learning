@@ -1,5 +1,8 @@
 ---
-tags: 🌱
+tags:
+  - 🌱
+  - ComputerScience
+  - MachineLearning
 alias: Flexible
 date: 29--May--2023
 ---

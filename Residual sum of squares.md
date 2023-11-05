@@ -1,5 +1,8 @@
 ---
-tags: 🌱
+tags:
+  - 🌱
+  - ComputerScience
+  - MachineLearning
 alias: RSS
 date: 19--May--2023
 ---

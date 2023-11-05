@@ -1,7 +1,12 @@
 ---
-tags: 🌱, TOCHECK
-alias: logit
+tags:
+  - 🌱
+  - ComputerScience
+  - MachineLearning
+aliases:
+  - logit
 date: 18--May--2023
+modified: 29--Oct--2023
 ---
 
 # Log-odds

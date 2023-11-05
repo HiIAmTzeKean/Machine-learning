@@ -1,5 +1,8 @@
 ---
-tags: 🌱
+tags:
+  - 🌱
+  - ComputerScience
+  - MachineLearning
 alias: LOOCV
 date: 22--May--2023
 ---

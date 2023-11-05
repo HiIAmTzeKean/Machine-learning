@@ -1,5 +1,8 @@
 ---
-tags: 🌱
+tags:
+  - 🌱
+  - ComputerScience
+  - MachineLearning
 date: 01--Jun--2023
 ---
 

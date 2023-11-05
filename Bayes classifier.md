@@ -1,6 +1,9 @@
 ---
-tags: READUP
+tags:
+  - ComputerScience
+  - MachineLearning
 date: 12--May--2023
+modified: 29--Oct--2023
 ---
 
 # Bayes Classifier

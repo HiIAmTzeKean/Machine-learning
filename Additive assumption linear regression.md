@@ -1,6 +1,10 @@
 ---
-tags: 🌱
+tags:
+  - 🌱
+  - ComputerScience
+  - MachineLearning
 date: 16--May--2023
+modified: 29--Oct--2023
 ---
 
 # Additive assumption linear regression

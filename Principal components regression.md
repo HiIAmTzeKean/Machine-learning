@@ -1,5 +1,8 @@
 ---
-tags: 🌱
+tags:
+  - 🌱
+  - ComputerScience
+  - MachineLearning
 alias: PCR
 date: 07--Jun--2023
 ---
@@ -27,7 +30,7 @@ Note that when the number of [[Principal component]] equals to number of predict
 ## Choosing [[Principal component]]
 - Use of [[Cross validation]]
     - The model with the lowest [[Cross validation]] error
-- Use of [[Standardization]] on [[Predictor]] before generating [[Principal component]]
+- Use of [[Standardisation]] on [[Predictor]] before generating [[Principal component]]
     - Ensures that variables are on the same scale
     - Without standardization, variables with high variance will play a larger role in [[Principal component]] (absolute value of difference is large, but the deviation from [[Mean]] may not be as large when standardized)
 - [[Unsupervised learning]] where the choice of [[Principal component]] depends on X and not Y [[Response]]

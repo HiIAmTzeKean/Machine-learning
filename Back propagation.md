@@ -3,12 +3,10 @@ tags:
   - 🌱
   - ComputerScience
   - MachineLearning
-date: 09--Jun--2023
+date: 16--Oct--2023
 ---
-
-# Principal component
-
+# Back propagation
 
 
 ---
-Links: 
+Links:

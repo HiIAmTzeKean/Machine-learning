@@ -1,5 +1,8 @@
 ---
-tags: 🌱
+tags:
+  - 🌱
+  - ComputerScience
+  - MachineLearning
 alias: PLS
 date: 05--Jun--2023
 ---
@@ -11,7 +14,7 @@ date: 05--Jun--2023
 ![[Principal components regression#Unsupervised drawback]]
 M [[Linear combination]] of original features are still identified, but the [[Principal component]] that is chosen will approximate both [[Predictor]] X and [[Response]] Y.
 ## Idea
-- [[Standardization]] of p [[Predictor]]
+- [[Standardisation]] of p [[Predictor]]
 - Set each $\phi$ equal to the [[Coefficient]] from [[Simple linear regression]]
     - [[Coefficient proportional to correlation]] between Y and X
     - If Y highly correlated to X, then $\phi$ will be higher
