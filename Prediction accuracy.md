@@ -8,7 +8,7 @@ date: 25--May--2023
 
 # Prediction accuracy
 The true relationship between the [[Response]] and [[Predictor]] is approximately [[Linear]] such that the [[Least squares]] estimate will be a low bias. 
-## Relation to [[Training data]]
+## Relation to [[Train data]]
 ### When $n \gg p$
 If $n \gg p$, where n is number of observations and p is the number of predictors, then the estimate will tend to have low [[Variance]]. 
 ### When $n>p$

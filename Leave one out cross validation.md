@@ -9,7 +9,7 @@ date: 22--May--2023
 
 # Leave one out cross validation
 
-Closely linked to [[Validation set approach]] but instead of splitting the observations in half, only a single observation is used for [[Validation set]] and all other $n-1$ observations are used for [[Training data]].
+Closely linked to [[Validation set approach]] but instead of splitting the observations in half, only a single observation is used for [[Validation set]] and all other $n-1$ observations are used for [[Train data]].
 ## Usage
 - A single observation is left out and $n-1$ observation used to train the model
 - $MSE_1=(y_1 - \hat{y}_1)^2$ is unbiased since (x_1,y_1) not used in training
@@ -19,7 +19,7 @@ Closely linked to [[Validation set approach]] but instead of splitting the obser
 ## Advantage
 - Less bias than [[Validation set approach]] since n-1 observations are used to fit the model as compared to half of the observation pool
     - LOOCS tends to not [[Overestimate test error rate]] as much as [[Validation set]]
-- Unlike validation set approach that yields different results when applied repeatedly due to [[Randomness]] in the split, LOOCV will always yield the same results since there is no randomness in the split
+- Unlike [[validation set]] approach that yields different results when applied repeatedly due to [[Randomness]] in the split, LOOCV will always yield the same results since there is no randomness in the split
 ## Disadvantage
 - High computational cost from fitting n times
     - Can be overcome with [[Linear regression]] as a shortcut to make LOOCV the same as a single model fit

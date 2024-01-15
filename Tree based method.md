@@ -12,7 +12,7 @@ date: 12--Jun--2023
 - [[Regression]]
 - [[Classification]]
 ## Idea
-[[Stratifying]] or [[Segmenting]] predictor space into simpler regions. The set of splitting rules can be summarised into a [[Decision tree]].
+[[Stratifying]] or [[Segmentation]] predictor space into simpler regions. The set of splitting rules can be summarised into a [[Decision tree]].
 ## Advantage
 - Simple for [[Interpretation]]
 ## Disadvantage

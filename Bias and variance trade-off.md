@@ -15,12 +15,12 @@ When the bias is too high, the model might [[Underfit]], the model might fail to
 ![[Prediction accuracy#Relation to Training data]]
 ## Relation with [[Flexible model]] and [[Model interpretability]]
 ### Flexibility
-As the number of [[Coefficient]] used in models such as [[Linear regression]] increases, the bias will start to decrease as the number of underlying assumptions made decreases. The variance will however increase since the model is now more sensitive to a smaller change in [[Training data]]. This causes the model to be more flexible. Note that the underlying [[Statistic]] behind it is due to the increase in the [[Degree of freedom]], where the model is better fitted to the observation with more independent information.
+As the number of [[Coefficient]] used in models such as [[Linear regression]] increases, the bias will start to decrease as the number of underlying assumptions made decreases. The variance will however increase since the model is now more sensitive to a smaller change in [[Train data]]. This causes the model to be more flexible. Note that the underlying [[Statistic]] behind it is due to the increase in the [[Degree of freedom]], where the model is better fitted to the observation with more independent information.
 ### Model interpretation
 As the model becomes more [[Flexible model]] due to the increase in the number of predictors used, the model becomes harder to interpret. This is due to the model fitting more complex relationships between the [[Predictor]] and [[Response]].
 ## Bias perspective
 [[Validation set approach]] can lead to [[Overestimate test error rate]] since training set used only contains half of the observations. 
-- [[Leave one out cross validation]] will give approximately [[Unbiased estimate of test error]] since each [[Training data]] is large at $n-1$
+- [[Leave one out cross validation]] will give approximately [[Unbiased estimate of test error]] since each [[Train data]] is large at $n-1$
 - [[k Fold cross validation]] on the other hand only has $(k-1) \frac{n}{k}$ observation. Hence, from a [[Bias reduction]] standpoint. LOOCV is preferred
 ## Procedure's variance perspective
 - LOOCV has higher variance than k-fold with $k<n$

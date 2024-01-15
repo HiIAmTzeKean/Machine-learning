@@ -23,7 +23,7 @@ $$\sum_{m=1}^{|T|} \sum_{i: x_i \in R_m} {(y_i - \hat y_{R_m}) ^2 + \alpha |T|}$
 - |T| is the number of terminal nodes of T
 - R_m is the subset of predictor space corresponding to the mth [[Terminal node]]
 - $\hat y_{R_m}$ is predicted response for $R_m$ (prediction of [[Decision tree]] uses the [[Mean]] of the values)
-- $\alpha$ controls the trade off between [[Complex|Complexity]] and fit to [[Training data]]
+- $\alpha$ controls the trade off between [[Complex|Complexity]] and fit to [[Train data]]
     - When $\alpha = 0, T = T_0$ since the equation only measures the [[Residual sum of squares|RSS]], refer to [[Residual sum of squares#Decision trees]]
     - As alpha increases, the penalty for having more [[Terminal node]] is larger, thus favouring trees with less nodes. This control is similar to [[The lasso]] 
 

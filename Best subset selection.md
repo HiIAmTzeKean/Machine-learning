@@ -26,7 +26,7 @@ The same method can be done for [[Logistic regression]], but instead of using RS
 ## Limitations
 - Computationally not feasible for large values of p
 - When p is large, algorithm also suffers from statistical problem
-    - Large search space increase chance of fitting a model well on [[Training data]] but might have poor [[Prediction accuracy]].
+    - Large search space increase chance of fitting a model well on [[Train data]] but might have poor [[Prediction accuracy]].
     - Leads to [[Overfitting]] and high [[Variance]] of [[Coefficient]] estimate.
 ---
 Links: [[Subset selection]]

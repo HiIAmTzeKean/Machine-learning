@@ -8,11 +8,11 @@ date: 09--Jun--2023
 
 # High dimension data
 Traditional [[Statistical learning]] for [[Regression]] and [[Classification]] are intended for [[Low dimension data]]. 
-With the advent of [[Big data]], the number of [[Predictor]]s available become extremely large, while the cost of obtaining [[Training data]] become increasingly costly. These data are known as high dimensional.
+With the advent of [[Big data]], the number of [[Predictor]]s available become extremely large, while the cost of obtaining [[Train data]] become increasingly costly. These data are known as high dimensional.
 ## Limitations of classical approach
 [[Linear regression]] is not suited for such data especially when $p > n$. This can be seen from [[Bias and variance trade-off#Dimension of data]] where [[Overfitting]] is likely to occur.
-[[Least squares]] is too [[Flexible model|Flexible]] and fits the data perfectly. As the number of observations continue to decrease, the [[Mean squared error|MSE]] of test set will increase since [[Variance]] of estimate will increase as the model becomes more flexible.
-Use of [[R square]] and [[Training data]] MSE is insufficient since these statistic will give misleading results. [[Cp]], [[AIC]], [[Adjusted R square]] and [[BIC]] are also not appropriate as estimating $\sigma^2$ becomes difficult.
+[[Least squares]] is too [[Flexible model|Flexible]] and fits the data perfectly. As the number of observations continue to decrease, the [[Mean squared error|MSE]] of [[Test set]] will increase since [[Variance]] of estimate will increase as the model becomes more flexible.
+Use of [[R square]] and [[Train data]] MSE is insufficient since these statistic will give misleading results. [[Cp]], [[AIC]], [[Adjusted R square]] and [[BIC]] are also not appropriate as estimating $\sigma^2$ becomes difficult.
 ### Overcoming limitations
 Less [[Flexible model]] like [[Forward stepwise selection]], [[Ridge regression]], [[The lasso]] and [[Principal components regression]] are useful as it avoids overfitting thorough using a less flexible approach.
 ## Impact to [[Prediction accuracy]]
